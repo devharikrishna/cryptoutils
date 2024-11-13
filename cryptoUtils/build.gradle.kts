@@ -27,7 +27,7 @@ afterEvaluate {
                 //from(components["release"]) // Assuming "release" is your component name
 
                 // Configure POM metadata (optional but recommended)
-                /*pom {
+                pom {
                     name.set("cryptoutils")
                     description.set("Your library description")
                     url.set("https://github.com/devharikrishna/cryptoutils") // Replace with your project URL
@@ -49,7 +49,7 @@ afterEvaluate {
                         developerConnection.set("scm:git:ssh://github.com/devharikrishna/cryptoutils.git") // Replace with your SSH Git URL
                         url.set("https://github.com/devharikrishna/cryptoutils") // Replace with your project URL
                     }
-                }*/
+                }
 
 
 
